@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Architecture
+
+![portfolio-design](https://github.com/shingoasou-0804/oshin-portfolio/assets/122670383/e05ebd76-fb07-470f-92ff-2e2762b89b30)
+
 ## Getting Started
 
 First, run the development server:
