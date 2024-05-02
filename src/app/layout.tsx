@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Noto_Sans_Javanese } from "next/font/google";
+import { Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 
-const notoSansJpn = Noto_Sans_Javanese({ subsets: ["latin"], weight: ['400', '500', '700']});
+const notoSansJp = Noto_Sans_JP({ subsets: ["latin"], weight: ['400', '500', '700']});
 
 export const metadata: Metadata = {
   title: "Oshin Portfolio",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={notoSansJpn.className}>{children}</body>
+      <body className={notoSansJp.className}>{children}</body>
     </html>
   );
 }
