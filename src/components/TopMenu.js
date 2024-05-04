@@ -1,27 +1,34 @@
+'use client'
+
 import Link from 'next/link'
 import React from 'react'
 import { AiOutlineClose } from 'react-icons/ai'
 import { RiMenu3Fill } from 'react-icons/ri'
 import { MdEmail } from 'react-icons/md'
+import { useMenuStore } from '@/store/useMenuStore'
 
 function TopMenu() {
+  const { isOpen, openMobileMenu } = useMenuStore()
+
   return (
-    <section>
-      <div>
-        <div>
+    <section className='px-[40px] bg-whitesmoke py-4 z-10 max-xs:px-5' id='home'>
+      <div className='max-w-7xl mx-auto flex flex-col justify-between items-center gap-5'>
+        <div className='flex justify-between items-center w-full md:hidden'>
           <Link href={'/'}>
-            <h1>Oshin portfolio</h1>
+            <h1 className='font-bold text-3xl text-cadetblue'>Oshin portfolio</h1>
           </Link>
-          <div>
-            <AiOutlineClose />
+          <div className='text-2xl z-50' onClick={openMobileMenu}>
+            { 
+              isOpen ? <AiOutlineClose /> : <RiMenu3Fill />
+            }
           </div>
         </div>
-        <div>
-          <div>
+        <div className='flex justify-between w-full items-center max-xs:flex-col max-xs:items-start max-xs:gap-2'>
+          <div className='flex flex-row gap-2 items-center text-lg font-bold'>
             <MdEmail />
-            <span>oshin-drone@gmail.com</span>
+            <span className='text-darkblue text-xl pb-1'>oshin-drone@gmail.com</span>
           </div>
-          <button>
+          <button className='bg-darkblue text-white px-4 py-1 rounded-md hover:bg-darkblue/75'>
             資料ダウンロード
           </button>
         </div>
