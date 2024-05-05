@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import '../app/animations.css'
 
 function Hero() {
   return (
@@ -18,12 +19,12 @@ function Hero() {
           </div>
           <div className='flex gap-4 max-md:justify-center'>
             <Link href={'#projects'}>
-              <button className='bg-darkblue text-white px-2 rounded-md py-1 hover:bg-darkblue/75 cursor-pointer'>
-                プロダクト開発実績
+              <button className='bg-darkblue text-white px-2 rounded-md py-1 hover:bg-darkblue/75 cursor-pointer lg:px-4'>
+                開発実績
               </button>
             </Link>
             <Link href={'#contact'}>
-              <button className='bg-darkblue text-white px-2 rounded-md py-1 hover:bg-darkblue/75 cursor-pointer'>
+              <button className='bg-darkblue text-white px-2 rounded-md py-1 hover:bg-darkblue/75 cursor-pointer lg:px-4'>
                 コンタクト
               </button>
             </Link>
@@ -37,6 +38,18 @@ function Hero() {
           className='z-10 rounded-full'
         />
       </div>
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </section>
   )
 }
