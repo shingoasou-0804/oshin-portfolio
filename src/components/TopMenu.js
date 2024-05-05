@@ -26,7 +26,7 @@ function TopMenu() {
         <div className='flex justify-between w-full items-center max-xs:flex-col max-xs:items-start max-xs:gap-2'>
           <div className='flex flex-row gap-2 items-center text-lg font-bold'>
             <MdEmail />
-            <span className='text-darkblue text-xl pb-1'>oshin-drone@gmail.com</span>
+            <span className='text-darkblue text-xl pb-1'>oshin-drone@hoge.com</span>
           </div>
           <button className='bg-darkblue text-white px-4 py-1 rounded-md hover:bg-darkblue/75'>
             資料ダウンロード
