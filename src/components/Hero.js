@@ -38,7 +38,7 @@ function Hero() {
           className='z-10 rounded-full'
         />
       </div>
-      <ul class="circles">
+      <ul className="circles">
         <li></li>
         <li></li>
         <li></li>
