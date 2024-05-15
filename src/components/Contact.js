@@ -1,7 +1,20 @@
-import React from 'react'
+'use client'
+
+import React, { useRef } from 'react'
 import { AiFillBulb, AiFillFacebook, AiFillTwitterSquare } from 'react-icons/ai'
+import emailjs from '@emailjs/browser'
 
 function Contact() {
+  const form = useRef()
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs.sendForm('', '', form.current, '').then((result) => {
+      form.current.reset()
+    }, (error) => {
+      console.log(error.text)
+    })
+  }
   return (
     <section className='w-full h-fit px-[40px] md:py-20 lg:pb-40 lg:pt-10 py-10 max-xs:px-[20px] relative bg-whitesmoke' id='contact'>
       <div className='max-w-7xl mx-auto'>
@@ -42,8 +55,16 @@ function Contact() {
           </div>
         </div>
         <div>
-          <form action=''>
-
+          <form ref={form} onSubmit={sendEmail} className='w-full'>
+            <input type='text' id='name' name='name' placeholder='お名前' />
+            <input type='email' id='email' name='email' placeholder='メールアドレス' />
+            <input type='text' id='subject' name='subject' placeholder='タイトル' />
+            <textarea name='message' id='message' rows={'7'} placeholder='内容' />
+            <div className='flex justify-end'>
+              <button type='submit'>
+                送信
+              </button>
+            </div>
           </form>
         </div>
       </div>
