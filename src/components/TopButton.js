@@ -1,8 +1,13 @@
 import React from 'react'
+import { BsArrowUpSquareFill } from 'react-icons/bs'
 
 function TopButton() {
   return (
-    <div>TopButton</div>
+    <div>
+      <a href='#home'>
+        <BsArrowUpSquareFill className='text-cadetblue shadow-md' size={40}/>
+      </a>
+    </div>
   )
 }
 
