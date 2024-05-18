@@ -1,11 +1,18 @@
+'use client'
+
 import React from 'react'
 import Image from 'next/image'
 import { AiFillGithub } from 'react-icons/ai'
 import { FaDev } from 'react-icons/fa'
+import { useMenuStore } from '@/store/useMenuStore'
 
 function SideMenu() {
+  const {isOpen, closeMobileMenu} = useMenuStore()
   return (
-    <section>
+    <section
+      className={
+        `${isOpen ? 'max-lg:block': 'max-md:hidden'}`
+      }>
       <div>
         <Image
           src={'/assets/logo.png'}
