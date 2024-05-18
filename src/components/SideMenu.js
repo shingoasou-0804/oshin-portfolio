@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { AiFillGithub } from 'react-icons/ai'
 import { FaDev } from 'react-icons/fa'
 import { useMenuStore } from '@/store/useMenuStore'
+import { sideMenuLinks } from '@/constants/sideMenuLinks'
 
 function SideMenu() {
   const {isOpen, closeMobileMenu} = useMenuStore()
@@ -23,8 +24,16 @@ function SideMenu() {
             height={100}
             alt='Oshin Image'
           />
-          <p className='font-bold text-darkblue'>Oshin</p>
         </div>
+        {
+          sideMenuLinks.map((link) => {
+            return (
+              <a key={link.label} href={link.route}>
+                <p>{link.label}</p>
+              </a>
+            )
+          })
+        }
         <div className='flex flex-col items-center justify-center text-center'>
           <div className='flex flex-col lg:flex-row item-center gap-4 mb-3'>
             <a href='' target='_blank' className='bg-darkblue p-2 rounded-full cursor-pointer hover:bg-darkblue/75 text-white'>
