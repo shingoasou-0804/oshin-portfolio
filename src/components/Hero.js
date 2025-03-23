@@ -11,7 +11,7 @@ function Hero() {
           <div className='text-4xl lg:text-6xl'>
             <h1 className='font-medium'>Leave system</h1>
             <span className='font-bold text-cadetblue'>Development</span>
-            <h2>to Oshin</h2>
+            <h2>to Shingo Aso</h2>
             <p className='mt-5 text-xl'>
               プロダクト開発ならお任せ下さい。インフラからフロントエンド、バックエンドで幅広い技術スタックを駆使し、プロダクト開発のさまざまな側面に取り組んでいます。
               加えて、PdMやPMとしての経験も活かし、企画からマネジメントにも取り組んでいます。
