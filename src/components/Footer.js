@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className='w-full text-center bg-whitesmoke py-2 md:hidden'>
       <p>
-        © 2025 Oshin
+        © 2025 Shingo Aso
       </p>
     </div>
   )

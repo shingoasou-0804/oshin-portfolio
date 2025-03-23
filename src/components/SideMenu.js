@@ -86,7 +86,7 @@ function SideMenu() {
               <FaDev />
             </a>
           </div>
-          <p className='max-lg:hidden'>© 2024 Oshin</p>
+          <p className='max-lg:hidden'>© 2025 Shingo Aso</p>
         </div>
       </div>
     </section>
