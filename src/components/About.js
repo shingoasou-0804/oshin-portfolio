@@ -17,8 +17,7 @@ function About() {
           <p className='mt-6 text-gray-600 text-lg md:text-xl leading-9'>
             インフラ開発においては、Terraformによるインフラのコード化を得意としています。<br />
             バックエンド開発においては、データベース設計、API開発、RubyやPythonでのプログラミングを得意としています。<br />
-            フロントエンド開発では、モダンなフロントエンドフレームワークを使用して使いやすくて美しいWebアプリケーションを構築します。
-            モバイルフレンドリーなデザインやリアルタイム対応など、モダンなWebアプリケーションの要件を満たします。<br />
+            フロントエンド開発では、モダンなフロントエンドフレームワークを使用して使いやすくて美しいWebアプリケーションを構築します。<br />
             また、コンテナ化、デプロイメント、CI/CDパイプラインの設計と実装にも取り組み、クラウドでのアプリケーションの運用にも熟練しています。
           </p>
         </div>
@@ -28,7 +27,7 @@ function About() {
               <li className='w-full shadow-sm'>
                 <div className='w-full text-center py-[30px] md:py-[60px] rounded-md bg-whitesmoke'>
                   <h3 className='text-4xl mb-1 text-darkblue font-bold'>
-                    10+
+                    30+
                   </h3>
                   <span>GitHub Repository</span>
                 </div>
@@ -36,7 +35,7 @@ function About() {
               <li className='w-full shadow-sm'>
                 <div className='w-full text-center py-[30px] md:py-[60px] rounded-md bg-whitesmoke'>
                   <h3 className='text-4xl mb-1 text-darkblue font-bold'>
-                    40+
+                    20+
                   </h3>
                   <span>Projects</span>
                 </div>
@@ -44,7 +43,7 @@ function About() {
               <li className='w-full shadow-sm'>
                 <div className='w-full text-center py-[30px] md:py-[60px] rounded-md bg-whitesmoke'>
                   <h3 className='text-4xl mb-1 text-darkblue font-bold'>
-                    5+
+                    9+
                   </h3>
                   <span>YEARS</span>
                 </div>
