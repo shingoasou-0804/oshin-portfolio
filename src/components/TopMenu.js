@@ -15,7 +15,7 @@ function TopMenu() {
       <div className='max-w-7xl mx-auto flex flex-col justify-between items-center gap-5'>
         <div className='flex justify-between items-center w-full md:hidden'>
           <Link href={'/'}>
-            <h1 className='font-bold text-3xl text-cadetblue'>Oshin portfolio</h1>
+            <h1 className='font-bold text-3xl text-cadetblue'>Shingo Aso portfolio</h1>
           </Link>
           <div className='text-2xl z-50' onClick={openMobileMenu}>
             { 
@@ -26,11 +26,11 @@ function TopMenu() {
         <div className='flex justify-between w-full items-center max-xs:flex-col max-xs:items-start max-xs:gap-2'>
           <div className='flex flex-row gap-2 items-center text-lg font-bold'>
             <MdEmail />
-            <span className='text-darkblue text-xl pb-1'>oshin-drone@hoge.com</span>
+            <span className='text-darkblue text-xl pb-1'>shingo-aso@xxx.com</span>
           </div>
-          <button className='bg-darkblue text-white px-4 py-1 rounded-md hover:bg-darkblue/75'>
+          {/* <button className='bg-darkblue text-white px-4 py-1 rounded-md hover:bg-darkblue/75'>
             資料ダウンロード
-          </button>
+          </button> */}
         </div>
       </div>
     </section>
