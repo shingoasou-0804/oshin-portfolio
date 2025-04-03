@@ -58,7 +58,7 @@ function Skills() {
               src={'/assets/skills/eventarc.svg'}
               width={100}
               height={100}
-              alt='fargate'
+              alt='eventarc'
               className='mb-2'
             />
             <span>Eventarc</span>
@@ -68,7 +68,7 @@ function Skills() {
               src={'/assets/skills/pubsub.png'}
               width={100}
               height={100}
-              alt='fargate'
+              alt='pubsub'
               className='mb-2'
             />
             <span>Pub/Sub</span>
@@ -78,7 +78,7 @@ function Skills() {
               src={'/assets/skills/bigquery.png'}
               width={100}
               height={100}
-              alt='fargate'
+              alt='bigquery'
               className='mb-2'
             />
             <span>BigQuery</span>
@@ -88,7 +88,7 @@ function Skills() {
               src={'/assets/skills/cloudrun.png'}
               width={100}
               height={100}
-              alt='fargate'
+              alt='cloudrun'
               className='mb-2'
             />
             <span>Google Cloud Run</span>
@@ -98,7 +98,7 @@ function Skills() {
               src={'/assets/skills/clouddeploy.png'}
               width={100}
               height={100}
-              alt='fargate'
+              alt='clouddeploy'
               className='mb-2'
             />
             <span>Cloud Deploy</span>
