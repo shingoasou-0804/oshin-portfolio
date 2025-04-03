@@ -55,6 +55,56 @@ function Skills() {
           </div>
           <div className='flex flex-col items-center bg-whitesmoke p-8 rounded-md text-center shadow-sm justify-center'>
             <Image
+              src={'/assets/skills/eventarc.svg'}
+              width={100}
+              height={100}
+              alt='fargate'
+              className='mb-2'
+            />
+            <span>Eventarc</span>
+          </div>
+          <div className='flex flex-col items-center bg-whitesmoke p-8 rounded-md text-center shadow-sm justify-center'>
+            <Image
+              src={'/assets/skills/pubsub.png'}
+              width={100}
+              height={100}
+              alt='fargate'
+              className='mb-2'
+            />
+            <span>Pub/Sub</span>
+          </div>
+          <div className='flex flex-col items-center bg-whitesmoke p-8 rounded-md text-center shadow-sm justify-center'>
+            <Image
+              src={'/assets/skills/bigquery.png'}
+              width={100}
+              height={100}
+              alt='fargate'
+              className='mb-2'
+            />
+            <span>BigQuery</span>
+          </div>
+          <div className='flex flex-col items-center bg-whitesmoke p-8 rounded-md text-center shadow-sm justify-center'>
+            <Image
+              src={'/assets/skills/cloudrun.png'}
+              width={100}
+              height={100}
+              alt='fargate'
+              className='mb-2'
+            />
+            <span>Google Cloud Run</span>
+          </div>
+          <div className='flex flex-col items-center bg-whitesmoke p-8 rounded-md text-center shadow-sm justify-center'>
+            <Image
+              src={'/assets/skills/clouddeploy.png'}
+              width={100}
+              height={100}
+              alt='fargate'
+              className='mb-2'
+            />
+            <span>Cloud Deploy</span>
+          </div>
+          <div className='flex flex-col items-center bg-whitesmoke p-8 rounded-md text-center shadow-sm justify-center'>
+            <Image
               src={'/assets/skills/nextjs.png'}
               width={100}
               height={100}
